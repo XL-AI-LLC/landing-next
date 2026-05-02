@@ -1,13 +1,6 @@
 'use client';
 import { useEffect } from 'react';
 
-declare global {
-  interface Window {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    Calendly: any;
-  }
-}
-
 export function useScrollReveal() {
   useEffect(() => {
     const reveals = document.querySelectorAll('.reveal');
@@ -27,7 +20,5 @@ export function useScrollReveal() {
 }
 
 export function openCal() {
-  if (typeof window !== 'undefined' && window.Calendly) {
-    window.Calendly.initPopupWidget({ url: 'https://calendly.com/xlai' });
-  }
+  window.open('https://calendar.google.com/calendar/u/0/r?pli=1', '_blank');
 }
