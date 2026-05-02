@@ -20,5 +20,5 @@ export function useScrollReveal() {
 }
 
 export function openCal() {
-  window.open('https://calendar.google.com/calendar/u/0/r?pli=1', '_blank');
+  window.open('https://calendar.app.google/KvBv48FAVDnZMtiy6', '_blank');
 }

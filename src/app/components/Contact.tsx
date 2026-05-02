@@ -31,7 +31,7 @@ export default function Contact({ onBookCall }: { onBookCall: () => void }) {
                 <span>→</span>
               </button>
               <div style={{ marginTop: 24, fontFamily: 'var(--mono)', fontSize: 11, color: 'rgba(107,107,136,0.6)', letterSpacing: '0.06em' }}>
-                Powered by Calendly
+                Powered by Google Meet
               </div>
             </div>
           </div>
