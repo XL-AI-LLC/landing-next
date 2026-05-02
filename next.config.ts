@@ -7,6 +7,14 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: 'lovable.dev' },
     ],
   },
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
+      },
+    },
+  },
 };
 
 export default nextConfig;

@@ -81,8 +81,7 @@ nav {
   display: flex; align-items: center; justify-content: space-between;
   padding-top: 24px; padding-bottom: 24px;
 }
-.nav-logo { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; color: #fff; text-decoration: none; }
-.nav-logo span { color: var(--accent); }
+.nav-logo { text-decoration: none; }
 .nav-links { display: flex; gap: 36px; list-style: none; }
 .nav-links a { font-family: var(--mono); font-size: 12px; color: var(--muted); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s; }
 .nav-links a:hover { color: var(--accent); }
@@ -171,8 +170,7 @@ nav {
 /* FOOTER */
 footer { border-top: 1px solid var(--line); }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; padding-top: 48px; padding-bottom: 48px; }
-.footer-logo { font-size: 20px; font-weight: 800; letter-spacing: -0.02em; text-decoration: none; color: #fff; }
-.footer-logo span { color: var(--accent); }
+.footer-logo { text-decoration: none; }
 .footer-links { display: flex; gap: 24px; align-items: center; }
 .footer-link { font-family: var(--mono); font-size: 11px; color: var(--muted); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s; }
 .footer-link:hover { color: var(--accent); }

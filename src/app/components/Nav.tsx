@@ -1,11 +1,12 @@
 'use client';
+import Logo from './logo.svg';
 
 export default function Nav({ onBookCall }: { onBookCall: () => void }) {
   return (
     <nav>
       <div className="container">
         <div className="nav-inner">
-          <a href="#" className="nav-logo"><span>XL</span>AI</a>
+          <a href="#" className="nav-logo"><Logo height={22} /></a>
           <ul className="nav-links">
             <li><a href="#services">Services</a></li>
             <li><a href="#platforms">Platforms</a></li>

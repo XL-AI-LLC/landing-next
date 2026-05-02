@@ -1,9 +1,11 @@
+import Logo from './logo.svg';
+
 export default function Footer() {
   return (
     <footer>
       <div className="container">
         <div className="footer-inner">
-          <a href="#" className="footer-logo"><span>XL</span>AI</a>
+          <a href="#" className="footer-logo"><Logo height={20} /></a>
           <div className="footer-links">
             <a href="https://www.linkedin.com/in/lyndsay-goldfarb/" target="_blank" rel="noopener noreferrer" className="footer-link">
               Lyndsay / LinkedIn
